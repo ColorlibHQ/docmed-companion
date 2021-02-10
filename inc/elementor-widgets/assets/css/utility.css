@@ -1,0 +1,39 @@
+/* -------------------------
+:: utility Class
+---------------------------- */
+.docmed-pt-100 {
+    padding-top: 100px;
+}
+.docmed-pt-80 {
+    padding-top: 80px;
+}
+.docmed-pt-70 {
+    padding-top: 70px;
+}
+.docmed-pt-60 {
+    padding-top: 60px;
+}
+.docmed-pt-50 {
+    padding-top: 50px;
+}
+.docmed-pt-30 {
+    padding-top: 30px;
+}
+.docmed-pb-100 {
+    padding-bottom: 100px;
+}
+.docmed-pb-80 {
+    padding-bottom: 80px;
+}
+.docmed-pb-70 {
+    padding-bottom: 70px;
+}
+.docmed-pb-60 {
+    padding-bottom: 60px;
+}
+.docmed-pb-50 {
+    padding-bottom: 50px;
+}
+.docmed-pb-30 {
+    padding-bottom: 30px;
+}
