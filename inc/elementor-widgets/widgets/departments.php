@@ -34,7 +34,7 @@ class Docmed_Departments extends Widget_Base {
 	}
 
 	public function get_icon() {
-		return 'eicon-settings';
+		return 'eicon-gallery-grid';
 	}
 
 	public function get_categories() {
@@ -263,10 +263,11 @@ class Docmed_Departments extends Widget_Base {
         );
         $this->add_control(
             'anchor_text_col', [
-                'label' => __( 'Anchor Text Color', 'docmed-companion' ),
+                'label' => __( 'Anchor Text & Section Title Border Color', 'docmed-companion' ),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .our_department_area .single_department .department_content a.learn_more' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .our_department_area .section_title h3::before' => 'background: {{VALUE}};',
                 ],
             ]
         );

@@ -34,7 +34,7 @@ class Docmed_Emergency_Contact_Section extends Widget_Base {
 	}
 
 	public function get_icon() {
-		return 'eicon-play-o';
+		return 'eicon-commenting-o';
 	}
 
 	public function get_categories() {

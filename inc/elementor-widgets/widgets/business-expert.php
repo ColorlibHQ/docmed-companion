@@ -34,7 +34,7 @@ class Docmed_Business_Expert extends Widget_Base {
 	}
 
 	public function get_icon() {
-		return 'eicon-settings';
+		return 'eicon-gallery-grid';
 	}
 
 	public function get_categories() {

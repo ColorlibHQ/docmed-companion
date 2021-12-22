@@ -34,7 +34,7 @@ class Docmed_Doctors extends Widget_Base {
 	}
 
 	public function get_icon() {
-		return 'eicon-settings';
+		return 'eicon-person';
 	}
 
 	public function get_categories() {
@@ -235,6 +235,7 @@ class Docmed_Doctors extends Widget_Base {
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .expert_doctors_area .single_expert:hover .experts_name' => 'background: {{VALUE}};',
+                    '{{WRAPPER}} .expert_doctors_area .owl-carousel .owl-nav div:hover' => 'background: {{VALUE}};',
                 ],
             ]
         );

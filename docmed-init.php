@@ -14,7 +14,6 @@ if( !defined( 'WPINC' ) ){
 require_once DOCMED_COMPANION_SW_DIR_PATH. 'about-widget.php';
 require_once DOCMED_COMPANION_SW_DIR_PATH. 'blog-widget.php';
 require_once DOCMED_COMPANION_SW_DIR_PATH. 'contact-info.php';
-require_once DOCMED_COMPANION_SW_DIR_PATH. 'instagram.php';
 require_once DOCMED_COMPANION_SW_DIR_PATH. 'newsletter-widget.php';
 require_once DOCMED_COMPANION_SW_DIR_PATH. 'social-links.php';
 
@@ -23,7 +22,6 @@ require_once DOCMED_COMPANION_INC_DIR_PATH . 'docmed-metabox.php';
 
 // Elementor widgets include
 require_once DOCMED_COMPANION_INC_DIR_PATH . 'functions.php';
-require_once DOCMED_COMPANION_INC_DIR_PATH . 'instagram-api.php';
 require_once DOCMED_COMPANION_EW_DIR_PATH . 'elementor-widget.php';
 
 // Demo import include

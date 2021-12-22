@@ -399,11 +399,6 @@ if ( !class_exists( 'Docmed_El_Widgets' ) ) {
             require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/business-expert.php';
             require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/doctors.php';
             require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/emergency-contact-section.php';
-            // require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/single-event.php';
-            // require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/clients.php';
-            // require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/faq-section.php';
-            // require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/projects.php';
-            // require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/home-contact.php';
             require_once DOCMED_COMPANION_EW_DIR_PATH . 'widgets/contact.php';
         }
 
@@ -430,11 +425,6 @@ if ( !class_exists( 'Docmed_El_Widgets' ) ) {
             \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Business_Expert() ); 
             \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Doctors() ); 
             \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Emergency_Contact_Section() ); 
-            // \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Single_Event() ); 
-            // \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Client_Contents() ); 
-            // \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Faq_Section() ); 
-            // \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Projects() ); 
-            // \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Home_Contact() ); 
             \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Docmedelementor\Widgets\Docmed_Contact() ); 
         }
 

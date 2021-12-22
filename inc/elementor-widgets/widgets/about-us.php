@@ -170,10 +170,11 @@ class Docmed_About_Us extends Widget_Base {
         );
         $this->add_control(
             'list_circle_col', [
-                'label' => __( 'List Item Icon Color', 'docmed-companion' ),
+                'label' => __( 'Subtitle Border & List Icon Color', 'docmed-companion' ),
                 'type' => Controls_Manager::COLOR,
                 'selectors' => [
                     '{{WRAPPER}} .welcome_docmed_area .welcome_docmed_info ul li::before' => 'color: {{VALUE}};',
+                    '{{WRAPPER}} .welcome_docmed_area .welcome_docmed_info h2:before' => 'background: {{VALUE}};',
                 ],
             ]
         );
