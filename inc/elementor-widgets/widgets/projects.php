@@ -400,23 +400,23 @@ class Docmed_Projects extends Widget_Base {
                 'options' => [
 					'1' => [
                         'title' => __( '1', 'docmed-companion' ),
-                        'icon'  => 'fa fa-star'
+                        'icon'  => 'fa-solid fa-star'
                     ],
 					'2' => [
                         'title' => __( '2', 'docmed-companion' ),
-                        'icon'  => 'fa fa-star'
+                        'icon'  => 'fa-solid fa-star'
                     ],
 					'3' => [
                         'title' => __( '3', 'docmed-companion' ),
-                        'icon'  => 'fa fa-star'
+                        'icon'  => 'fa-solid fa-star'
                     ],
 					'4' => [
                         'title' => __( '4', 'docmed-companion' ),
-                        'icon'  => 'fa fa-star'
+                        'icon'  => 'fa-solid fa-star'
                     ],
 					'5' => [
                         'title' => __( '5', 'docmed-companion' ),
-                        'icon'  => 'fa fa-star'
+                        'icon'  => 'fa-solid fa-star'
                     ],
 				],
                 // 'default' => __( '5', 'docmed-companion' ),
@@ -692,7 +692,7 @@ class Docmed_Projects extends Widget_Base {
                                     <?php
                                         for ( $i = 0; $i < 5; $i++ ) {
                                             if ( $project_rating >= $i ) {
-                                                echo '<i class="fa fa-star"></i>';
+                                                echo '<i class="fa-solid fa-star"></i>';
                                             }
                                         }
                                     ?>
