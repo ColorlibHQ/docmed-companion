@@ -319,7 +319,7 @@ if ( !class_exists( 'Docmed_El_Widgets' ) ) {
             // map active js
             // wp_register_script( 'docmed-map-active', plugins_url( 'assets/js/map-active.js', __FILE__ ), array('jquery'), '1.0', true );
             // docmed companion main js
-            wp_enqueue_script( 'docmed-companion', plugins_url( 'assets/js/docmed-companion-main.js', __FILE__ ), array('jquery'), '1.0-s1', true );
+            wp_enqueue_script( 'docmed-companion', plugins_url( 'assets/js/docmed-companion-main.js', __FILE__ ), array( 'masonry', 'docmed-ui-js' ), '1.0-s2', true );
 
 
         }
